@@ -95,4 +95,5 @@ shape = SubResource("CapsuleShape2D_cvnsp")
 position = Vector2(-3, -27)
 sprite_frames = SubResource("SpriteFrames_vgqql")
 animation = &"idle"
+autoplay = "idle"
 frame_progress = 0.6756133
