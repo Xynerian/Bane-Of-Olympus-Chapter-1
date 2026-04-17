@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://1en14o5fs8wn"]
+
+[ext_resource type="Script" uid="uid://cmink2vfg4k3t" path="res://Scripts/player.gd" id="1_v0iea"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f60y1"]
+size = Vector2(20, 15)
+
+[node name="Player" type="CharacterBody2D" unique_id=333656335 groups=["scene_switcher"]]
+script = ExtResource("1_v0iea")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1839428850]
+
+[node name="player" type="CollisionShape2D" parent="." unique_id=1063799413]
+scale = Vector2(0.8, 0.8)
+shape = SubResource("RectangleShape2D_f60y1")
+debug_color = Color(0.9284116, 3.5135447e-05, 0.66673774, 0.41960785)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=41080481]
+zoom = Vector2(6, 6)

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cw4c7pg0ucw4v"]
+
+[ext_resource type="Script" uid="uid://cl4nqhxsrjwnt" path="res://Scripts/main.gd" id="1_8gbba"]
+[ext_resource type="PackedScene" uid="uid://c26qthl2tkky0" path="res://Scenes/burning_home.tscn" id="2_8gbba"]
+[ext_resource type="Script" uid="uid://dge4pyeor3lag" path="res://Scripts/gds.gd" id="3_8gbba"]
+
+[node name="Main" type="Node2D" unique_id=1880408611]
+script = ExtResource("1_8gbba")
+
+[node name="Level" parent="." unique_id=812566799 instance=ExtResource("2_8gbba")]
+position = Vector2(0, 25)
+
+[node name="GDS" type="Node" parent="." unique_id=21157581]
+script = ExtResource("3_8gbba")
