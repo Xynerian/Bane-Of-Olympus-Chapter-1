@@ -79,7 +79,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pu2lt")
 }],
-"loop": true,
+"loop": false,
 "name": &"run",
 "speed": 5.0
 }]
@@ -100,4 +100,3 @@ zoom = Vector2(6, 6)
 scale = Vector2(0.3, 0.27)
 sprite_frames = SubResource("SpriteFrames_ukyrk")
 animation = &"run"
-autoplay = "run"
