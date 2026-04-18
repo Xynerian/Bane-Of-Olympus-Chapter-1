@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://d076x2tjwcqfo"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xsbdy"]
-
-[node name="Exit" type="Area2D" unique_id=1486783961]
-metadata/target_level = ""
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1251388053]
-shape = SubResource("RectangleShape2D_xsbdy")
